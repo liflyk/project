@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello There";
+		return "Hello There Testing Rest Api";
 	}
 	@GetMapping("/home")
     public String homeInit(Locale locale, Model model) {
