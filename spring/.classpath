@@ -6,11 +6,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
 			<attribute name="test" value="true"/>
@@ -29,8 +24,28 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/UserApps/Application/K/spring-framework-5.1.2.RELEASE/libs/spring-webmvc-5.1.2.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/UserApps/Application/K/spring-framework-5.1.2.RELEASE/libs/spring-web-5.1.2.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/UserApps/Application/K/spring-framework-5.1.2.RELEASE/libs/spring-context-5.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/commons-codec-1.13.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/commons-compress-1.19.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/curvesapi-1.06.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/jaxb-core-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/jaxb-impl-2.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/poi-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/poi-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/poi-examples-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/poi-excelant-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/poi-ooxml-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/poi-ooxml-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/poi-ooxml-schemas-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/poi-scratchpad-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/SparseBitSet-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/UserApps/Kp/Application/K/Jar/xmlbeans-3.1.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

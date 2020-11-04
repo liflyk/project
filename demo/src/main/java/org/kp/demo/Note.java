@@ -1,7 +1,7 @@
 package org.kp.demo;
 
 import java.io.Serializable;
-import java.util.Date;
+import java.time.LocalDateTime;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -13,6 +13,8 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
 
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 
@@ -35,14 +37,12 @@ public class Note implements Serializable {
 
 	@NotBlank
 	private String content;
+	@Column(nullable = false, updatable = false)
+	@CreationTimestamp
+	private LocalDateTime createdAt;
 
-	/*@Column(nullable = false, updatable = false)
-	@Temporal(TemporalType.TIMESTAMP)
-	@CreatedDate
-	private Date createdAt;*/
-
-	
-	
+	@UpdateTimestamp
+	private LocalDateTime updatedAt;
 
 	public Long getId() {
 		return id;
@@ -68,8 +68,20 @@ public class Note implements Serializable {
 		this.content = content;
 	}
 
-	
+	public LocalDateTime getCreatedAt() {
+		return createdAt;
+	}
 
-	
+	public void setCreatedAt(LocalDateTime createdAt) {
+		this.createdAt = createdAt;
+	}
+
+	public LocalDateTime getUpdatedAt() {
+		return updatedAt;
+	}
+
+	public void setUpdatedAt(LocalDateTime updatedAt) {
+		this.updatedAt = updatedAt;
+	}
 
 }
